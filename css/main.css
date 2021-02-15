@@ -21,16 +21,17 @@ button, input {
 /* Header */
 header {
     width: 100%;
-    /* background: red; */
     position: fixed;
     z-index: 20;
+    /* background: red; */
 }
 
 header .inner-header {
-    /* background: orange; */
     width: 92%;
+    height: 120px;
     margin: 0 auto;
-
+    /* background: orange; */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,11 +61,11 @@ header .inner-header .intro-text {
 
 header .inner-header .menu-open {
     flex: 1;
-    /* background: skyblue; */
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-
+    /* background: skyblue; */
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -79,9 +80,10 @@ header .inner-header .menu-open .lnr-menu {
 /* section visual */
 section.visual .slide li {
     width: 100%;
-    height: 100vp;
+    height: 100vh;
     background: #222;
     position: relative;
+    overflow: hidden;
 }
 
 section.visual .slide li img {
