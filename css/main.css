@@ -16,7 +16,7 @@ button, input {
 }
 
 .hide {
-    display: none im !important;
+    display: none !important;
 }
 
 /* header */
@@ -26,7 +26,6 @@ header {
     position: fixed;
     z-index: 20;
 }
-
 header.on {
     background: #222;
     border-bottom: 1px solid #2c2c2c;
@@ -215,13 +214,13 @@ section.visual .slide li .scroll {
 
 .slick-arrow:hover {
     background: #cccccc;
-    transform: all .5s;
+    transform: .5s;
 }
 
 .slick-arrow:hover::after {
     font-size: 28px;
     color: #333333;
-    transition: all .2s;
+    transition: .2s;
 }
 
 .slick-active .txt p {
